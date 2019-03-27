@@ -28,3 +28,4 @@ echo Removing all Volumes
 for i in $( docker volume ls -q ) ; do
   docker volume rm $i
 done
+echo "testing the git hub 1st time"
